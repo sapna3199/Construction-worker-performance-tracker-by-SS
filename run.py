@@ -1,5 +1,5 @@
 from pml import app
-app.run(debug=True, port=33507)
+app.run(debug=True, port=5000)
 
 from flask import Flask
 app = Flask(__name__)
