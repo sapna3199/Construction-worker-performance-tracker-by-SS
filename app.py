@@ -18,7 +18,6 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predict():
-    global df
     
     # input
     input_features = [float(x) for x in request.form.values()]
